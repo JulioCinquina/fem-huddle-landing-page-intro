@@ -7,8 +7,11 @@
 
   --ff-headings: "Poppins", sans-serif;
   --ff-body: "Open Sans", sans-serif;
+
+  --fs-300: 0.75rem;
   --fs-400: 1rem;
   --fs-600: 1.5rem;
+
   --fw-400: 400;
   --fw-600: 600;
 }
@@ -86,6 +89,29 @@ h1 {
 
 .main__title {
   margin-block-start: 0;
+}
+
+.btn {
+  display: inline-block;
+  padding-block: 0.8em;
+  padding-inline: 3.5em;
+  border-radius: 100vmax; /* makes a pill shape */
+  background-color: var(--white);
+
+  font-family: var(--ff-headings);
+  font-size: var(--fs-300);
+  font-weight: var(--fw-400);
+  color: var(--violet);
+  text-decoration: none;
+
+  box-shadow: 0 0.25rem 0.25rem rgb(0 0 0 / 0.25);
+}
+
+.main__content .btn {
+  /* Button is a bit wider in mobile layout */
+  display: block;
+  max-width: 16.5em;
+  margin-inline: auto;
 }
 
 .attribution {
