@@ -32,6 +32,9 @@ picture {
 a {
   color: inherit;
 }
+.container {
+  padding-inline: 2.25rem;
+}
 .attribution {
   font-size: 0.6875rem;
   text-align: center;
