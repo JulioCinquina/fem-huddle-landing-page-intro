@@ -14,6 +14,8 @@
 
   --fw-400: 400;
   --fw-600: 600;
+
+  --flow-space: 1rem;
 }
 
 *,
@@ -51,6 +53,13 @@ a {
 
 h1,
 h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
 h3 {
   font-family: var(--ff-headings);
   font-weight: var(--fw-600);
@@ -64,6 +73,14 @@ h1 {
   max-width: 40rem;
   margin-inline: auto;
   padding-inline: 2.25rem;
+}
+
+.flow-content > * + * {
+  margin-block-start: var(--flow-space);
+}
+
+.larger-space {
+  --flow-space: 1.5rem;
 }
 
 .header,
@@ -85,10 +102,6 @@ h1 {
 
 .main__content {
   text-align: center;
-}
-
-.main__title {
-  margin-block-start: 0;
 }
 
 .btn {
