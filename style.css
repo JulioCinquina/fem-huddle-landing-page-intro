@@ -132,5 +132,5 @@ h1 {
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--white);
 }
