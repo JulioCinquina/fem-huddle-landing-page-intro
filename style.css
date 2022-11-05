@@ -102,14 +102,14 @@ h1 {
   padding-block: 2rem;
 }
 
+.header__logo {
+  max-width: 8rem;
+}
+
 .main {
   padding-block: 1.5rem;
   display: grid;
   gap: 3.875rem;
-}
-
-.header__logo {
-  max-width: 8rem;
 }
 
 .main__content {
