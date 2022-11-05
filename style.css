@@ -164,3 +164,9 @@ h1 {
 .attribution a {
   color: var(--white);
 }
+
+@media screen and (min-width: 51em) {
+  body {
+    background-size: cover;
+  }
+}
