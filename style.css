@@ -128,6 +128,7 @@ h1 {
   color: var(--violet);
   text-decoration: none;
 
+  cursor: pointer;
   box-shadow: 0 0.25rem 0.25rem rgb(0 0 0 / 0.25);
 }
 
