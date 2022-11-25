@@ -15,7 +15,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution on Frontend Mentor]()
+- [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-landing-page-css-grid-with-accessible-external-links-0DMu3D7RVM)
 - [Live site on GitHub Pages](https://juliocinquina.github.io/fem-huddle-landing-page-intro/)
 
 ### Screenshots
